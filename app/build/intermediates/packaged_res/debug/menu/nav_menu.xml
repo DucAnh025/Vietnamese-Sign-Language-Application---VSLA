@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_edit_profile"
+        android:icon="@drawable/ic_edit_profile"
+        android:title="Thông tin cá nhân">
+
+    </item>
+
+    <item
+        android:id="@+id/nav_notif"
+        android:icon="@drawable/ic_notif"
+        android:title="Thông báo">
+
+    </item>
+
+    <item
+        android:id="@+id/nav_progress"
+        android:icon="@drawable/ic_progress"
+        android:title="Tiến trình học ">
+    </item>
+
+    <item
+        android:id="@+id/nav_watchedvideos"
+        android:icon="@drawable/ic_history"
+        android:title="Bài đã học">
+    </item>
+
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/ic_help"
+        android:title="Trợ giúp" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Đăng xuất" />
+
+</menu>

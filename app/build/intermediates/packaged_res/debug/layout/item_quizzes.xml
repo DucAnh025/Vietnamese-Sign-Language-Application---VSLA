@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Image for the sign language gesture (optional) -->
+        <ImageView
+            android:id="@+id/questionImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Question Image" />
+
+        <!-- Question text -->
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 1: What does this sign represent?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000000" />
+
+        <!-- Answer choices -->
+        <RadioGroup
+            android:id="@+id/answerGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/answerA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A: Letter A"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/answerB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B: Letter C"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/answerC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C: Letter G"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/answerD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="D: Letter P"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#000000" />
+
+        </RadioGroup>
+
+        <!-- Submit button for the quiz -->
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

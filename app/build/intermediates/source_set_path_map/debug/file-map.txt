@@ -1,0 +1,53 @@
+com.google.mediapipe.examples.gesturerecognizer.app-lifecycle-viewmodel-2.5.1-0 /Users/ducanh/.gradle/caches/transforms-3/0649073f8bfbe9b1b72be72293a9527c/transformed/lifecycle-viewmodel-2.5.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-activity-1.5.1-1 /Users/ducanh/.gradle/caches/transforms-3/089b3aa69f9532dce0f9e460710a2144/transformed/activity-1.5.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-navigation-fragment-ktx-2.5.3-2 /Users/ducanh/.gradle/caches/transforms-3/111120dac7c1d13e34343503f29ebd20/transformed/navigation-fragment-ktx-2.5.3/res
+com.google.mediapipe.examples.gesturerecognizer.app-savedstate-1.2.0-3 /Users/ducanh/.gradle/caches/transforms-3/112603fb8c3981aef0711a3ffca9ed69/transformed/savedstate-1.2.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-transition-1.4.1-4 /Users/ducanh/.gradle/caches/transforms-3/11dc105cf215703a368cdb2a86c3be54/transformed/transition-1.4.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-constraintlayout-2.1.4-5 /Users/ducanh/.gradle/caches/transforms-3/1f0d838e43f7e97b2b20f6d3cb708b91/transformed/constraintlayout-2.1.4/res
+com.google.mediapipe.examples.gesturerecognizer.app-activity-ktx-1.5.1-6 /Users/ducanh/.gradle/caches/transforms-3/1f745524b8825e2469d16876a7cde55d/transformed/activity-ktx-1.5.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-navigation-common-ktx-2.5.3-7 /Users/ducanh/.gradle/caches/transforms-3/24d0683e38677f77c91b6f7df62e0821/transformed/navigation-common-ktx-2.5.3/res
+com.google.mediapipe.examples.gesturerecognizer.app-core-ktx-1.8.0-8 /Users/ducanh/.gradle/caches/transforms-3/2e0c5810230e4397e9fcd9716087e09d/transformed/core-ktx-1.8.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-camera-camera2-1.2.0-alpha02-9 /Users/ducanh/.gradle/caches/transforms-3/3a467c7cee4815b7f08d6f0ab0881af4/transformed/camera-camera2-1.2.0-alpha02/res
+com.google.mediapipe.examples.gesturerecognizer.app-glide-4.16.0-10 /Users/ducanh/.gradle/caches/transforms-3/3be70d2f8f17e889f7ad24afd54e5ba6/transformed/glide-4.16.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-navigation-ui-ktx-2.5.3-11 /Users/ducanh/.gradle/caches/transforms-3/425b0384237b0532ebfb7dc8ba92c966/transformed/navigation-ui-ktx-2.5.3/res
+com.google.mediapipe.examples.gesturerecognizer.app-savedstate-ktx-1.2.0-12 /Users/ducanh/.gradle/caches/transforms-3/4300bd61a877edf0ede2a5fed5dbccc1/transformed/savedstate-ktx-1.2.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-slidingpanelayout-1.2.0-13 /Users/ducanh/.gradle/caches/transforms-3/4983e9eb5875ee39fa5f382eb9bde7d3/transformed/slidingpanelayout-1.2.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-emoji2-views-helper-1.2.0-14 /Users/ducanh/.gradle/caches/transforms-3/4b2e0a85cf1e8fe463f2723ad4d33a17/transformed/emoji2-views-helper-1.2.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-startup-runtime-1.1.1-15 /Users/ducanh/.gradle/caches/transforms-3/4d4e1952a4b649b47a2e793d1e676952/transformed/startup-runtime-1.1.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-core-1.8.0-16 /Users/ducanh/.gradle/caches/transforms-3/55a6e9c0ce71d430864c1ec8e19afa4f/transformed/core-1.8.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-fragment-1.5.4-17 /Users/ducanh/.gradle/caches/transforms-3/580bf179a176408fff34168d880d1481/transformed/fragment-1.5.4/res
+com.google.mediapipe.examples.gesturerecognizer.app-lifecycle-runtime-2.5.1-18 /Users/ducanh/.gradle/caches/transforms-3/6617152882f14bea57253386f1e8408b/transformed/lifecycle-runtime-2.5.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-viewpager2-1.0.0-19 /Users/ducanh/.gradle/caches/transforms-3/6adf2060d621a530ce2a189fb93bab55/transformed/viewpager2-1.0.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-material-1.7.0-20 /Users/ducanh/.gradle/caches/transforms-3/6c73d79ddcef8f2a9bf3f291466e3461/transformed/material-1.7.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-emoji2-1.2.0-21 /Users/ducanh/.gradle/caches/transforms-3/70d4db5432271e9eb48576c03d9980b6/transformed/emoji2-1.2.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-lifecycle-livedata-core-ktx-2.5.1-22 /Users/ducanh/.gradle/caches/transforms-3/7afcc0b3afb7c51722f9391b5754ad64/transformed/lifecycle-livedata-core-ktx-2.5.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-recyclerview-1.1.0-23 /Users/ducanh/.gradle/caches/transforms-3/9344ea779879931722e93bb1a6840474/transformed/recyclerview-1.1.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-camera-view-1.2.0-alpha02-24 /Users/ducanh/.gradle/caches/transforms-3/9fd0d82de40a0c428494e4f89e6d0c77/transformed/camera-view-1.2.0-alpha02/res
+com.google.mediapipe.examples.gesturerecognizer.app-window-1.1.0-alpha03-25 /Users/ducanh/.gradle/caches/transforms-3/a17196c621642be34ff0a46e00593c30/transformed/window-1.1.0-alpha03/res
+com.google.mediapipe.examples.gesturerecognizer.app-fragment-ktx-1.5.4-26 /Users/ducanh/.gradle/caches/transforms-3/a1f58898e60598c44c816a24e8e8ba68/transformed/fragment-ktx-1.5.4/res
+com.google.mediapipe.examples.gesturerecognizer.app-annotation-experimental-1.1.0-27 /Users/ducanh/.gradle/caches/transforms-3/a877540e06c43a240b8ee6c48048cac6/transformed/annotation-experimental-1.1.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-drawerlayout-1.1.1-28 /Users/ducanh/.gradle/caches/transforms-3/afba84903c1cce7c09d7fc2c214916a4/transformed/drawerlayout-1.1.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-appcompat-1.5.1-29 /Users/ducanh/.gradle/caches/transforms-3/bc8345d4bd0df4cfd442ae74ec55998d/transformed/appcompat-1.5.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-cardview-1.0.0-30 /Users/ducanh/.gradle/caches/transforms-3/bc9f16e784774dc4b98ae9f1d41947fd/transformed/cardview-1.0.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-appcompat-resources-1.5.1-31 /Users/ducanh/.gradle/caches/transforms-3/c0b31fccf115dccd6facfe525a44bcd2/transformed/appcompat-resources-1.5.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-lifecycle-runtime-ktx-2.5.1-32 /Users/ducanh/.gradle/caches/transforms-3/c63d3af329f216ed52e4917938548502/transformed/lifecycle-runtime-ktx-2.5.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-navigation-runtime-2.5.3-33 /Users/ducanh/.gradle/caches/transforms-3/c69c309bdb2a2a3004b7c1eb7637efa4/transformed/navigation-runtime-2.5.3/res
+com.google.mediapipe.examples.gesturerecognizer.app-camera-core-1.2.0-alpha02-34 /Users/ducanh/.gradle/caches/transforms-3/c8fab1d040367e0077353930550cb97e/transformed/camera-core-1.2.0-alpha02/res
+com.google.mediapipe.examples.gesturerecognizer.app-navigation-common-2.5.3-35 /Users/ducanh/.gradle/caches/transforms-3/cb05c74f475a08f1fef253673224a327/transformed/navigation-common-2.5.3/res
+com.google.mediapipe.examples.gesturerecognizer.app-camera-lifecycle-1.2.0-alpha02-36 /Users/ducanh/.gradle/caches/transforms-3/ccaa5f3f03996366cdac9706ac418911/transformed/camera-lifecycle-1.2.0-alpha02/res
+com.google.mediapipe.examples.gesturerecognizer.app-lifecycle-viewmodel-ktx-2.5.1-37 /Users/ducanh/.gradle/caches/transforms-3/ccba5bb47edda0dafb95dff64d47ce2d/transformed/lifecycle-viewmodel-ktx-2.5.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-lifecycle-viewmodel-savedstate-2.5.1-38 /Users/ducanh/.gradle/caches/transforms-3/d61e2e2e3e141d91482a68c099511d5a/transformed/lifecycle-viewmodel-savedstate-2.5.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-navigation-runtime-ktx-2.5.3-39 /Users/ducanh/.gradle/caches/transforms-3/d8cdb9b317ca109ee51fe957a21494a3/transformed/navigation-runtime-ktx-2.5.3/res
+com.google.mediapipe.examples.gesturerecognizer.app-navigation-fragment-2.5.3-40 /Users/ducanh/.gradle/caches/transforms-3/df5cda3287959bf4f3e57032930494a4/transformed/navigation-fragment-2.5.3/res
+com.google.mediapipe.examples.gesturerecognizer.app-lifecycle-livedata-core-2.5.1-41 /Users/ducanh/.gradle/caches/transforms-3/e897a9afba125653d256ee264270a051/transformed/lifecycle-livedata-core-2.5.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-lifecycle-process-2.4.1-42 /Users/ducanh/.gradle/caches/transforms-3/f4713e4c2e69fbb2fc1fe3b3d519e088/transformed/lifecycle-process-2.4.1/res
+com.google.mediapipe.examples.gesturerecognizer.app-navigation-ui-2.5.3-43 /Users/ducanh/.gradle/caches/transforms-3/f84e54eea9726522694c736090fc6b61/transformed/navigation-ui-2.5.3/res
+com.google.mediapipe.examples.gesturerecognizer.app-coordinatorlayout-1.1.0-44 /Users/ducanh/.gradle/caches/transforms-3/fc1e75aa1d022a6c23fb852cf9a93cd4/transformed/coordinatorlayout-1.1.0/res
+com.google.mediapipe.examples.gesturerecognizer.app-pngs-45 /Users/ducanh/Desktop/Vietnamese Sign Language Application/app/build/generated/res/pngs/debug
+com.google.mediapipe.examples.gesturerecognizer.app-resValues-46 /Users/ducanh/Desktop/Vietnamese Sign Language Application/app/build/generated/res/resValues/debug
+com.google.mediapipe.examples.gesturerecognizer.app-rs-47 /Users/ducanh/Desktop/Vietnamese Sign Language Application/app/build/generated/res/rs/debug
+com.google.mediapipe.examples.gesturerecognizer.app-packageDebugResources-48 /Users/ducanh/Desktop/Vietnamese Sign Language Application/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.google.mediapipe.examples.gesturerecognizer.app-packageDebugResources-49 /Users/ducanh/Desktop/Vietnamese Sign Language Application/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.google.mediapipe.examples.gesturerecognizer.app-merged_res-50 /Users/ducanh/Desktop/Vietnamese Sign Language Application/app/build/intermediates/merged_res/debug
+com.google.mediapipe.examples.gesturerecognizer.app-debug-51 /Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/debug/res
+com.google.mediapipe.examples.gesturerecognizer.app-main-52 /Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/res

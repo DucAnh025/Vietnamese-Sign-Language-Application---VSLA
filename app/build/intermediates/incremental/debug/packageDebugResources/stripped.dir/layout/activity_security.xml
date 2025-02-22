@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SecurityActivity">
+
+    <!-- Back to Setting -->
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Back"
+        android:src="@drawable/ic_arrow_left"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Title of layout(Security) -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:text="Security"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <!-- All Switch layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_edittext">
+
+        <!-- Face ID Switch -->
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="282dp"
+            android:layout_height="42dp"
+            android:text="Face ID"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck,UseSwitchCompatOrMaterialXml" />
+
+        <!-- Remember Password Switch -->
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="282dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="40dp"
+            android:text="Remember Password"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck,UseSwitchCompatOrMaterialXml" />
+
+        <!-- Touch ID Switch -->
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="282dp"
+            android:layout_height="42dp"
+            android:text="Touch ID"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/switch2"
+            app:layout_constraintHorizontal_bias="0.486"
+            tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck,UseSwitchCompatOrMaterialXml" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

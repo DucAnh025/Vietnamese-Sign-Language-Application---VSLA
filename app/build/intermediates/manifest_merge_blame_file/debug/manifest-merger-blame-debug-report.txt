@@ -1,0 +1,329 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.google.mediapipe.examples.gesturerecognizer"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml
+11
+12    <!-- Enable instant app support -->
+13    <dist:module dist:instant="true" />
+13-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:8:5-40
+13-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:8:18-37
+14
+15    <!-- Declare features -->
+16    <uses-feature android:name="android.hardware.camera" />
+16-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:11:5-60
+16-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:11:19-57
+17
+18    <!-- Declare permissions -->
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:14:5-65
+19-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:14:22-62
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:15:5-80
+20-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:15:22-77
+21    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+21-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:16:5-76
+21-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:16:22-73
+22
+23    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+24    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/aea7273d2ea17b818b63d4fde03217e5/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:25:5-79
+25-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/aea7273d2ea17b818b63d4fde03217e5/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:25:22-76
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/aea7273d2ea17b818b63d4fde03217e5/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:26:5-67
+26-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/aea7273d2ea17b818b63d4fde03217e5/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:26:22-64
+27
+28    <application
+28-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:19:5-70:19
+29        android:allowBackup="true"
+29-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:20:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.8.0] /Users/ducanh/.gradle/caches/transforms-3/55a6e9c0ce71d430864c1ec8e19afa4f/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:21:9-43
+34        android:label="@string/app_name"
+34-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:22:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:23:9-54
+36        android:supportsRtl="true"
+36-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:24:9-35
+37        android:taskAffinity=""
+37-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:25:9-32
+38        android:testOnly="true"
+39        android:theme="@style/Theme.GestureRecognizer" >
+39-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:26:9-55
+40        <activity
+40-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:29:9-42:20
+41            android:name="com.google.mediapipe.examples.gesturerecognizer.OnBoardingActivity"
+41-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:30:13-47
+42            android:exported="true" >
+42-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:31:13-36
+43            <intent-filter>
+43-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:32:13-36:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:33:17-69
+44-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:33:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:35:17-77
+46-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:35:27-74
+47            </intent-filter>
+48
+49            <!-- Declare notch support -->
+50            <meta-data
+50-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:39:13-41:40
+51                android:name="android.notch_support"
+51-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:40:17-53
+52                android:value="true" />
+52-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:41:17-37
+53        </activity>
+54        <activity
+54-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:43:9-79
+55            android:name="com.google.mediapipe.examples.gesturerecognizer.PracticeActivity"
+55-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:43:19-51
+56            android:exported="false" />
+56-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:43:52-76
+57        <activity
+57-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:44:9-75
+58            android:name="com.google.mediapipe.examples.gesturerecognizer.MainActivity"
+58-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:44:19-47
+59            android:exported="false" />
+59-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:44:48-72
+60        <activity
+60-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:45:9-76
+61            android:name="com.google.mediapipe.examples.gesturerecognizer.LoginActivity"
+61-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:45:19-48
+62            android:exported="false" />
+62-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:45:49-73
+63        <activity
+63-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:46:9-77
+64            android:name="com.google.mediapipe.examples.gesturerecognizer.SignupActivity"
+64-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:46:19-49
+65            android:exported="false" />
+65-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:46:50-74
+66        <activity
+66-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:47:9-78
+67            android:name="com.google.mediapipe.examples.gesturerecognizer.SettingActivity"
+67-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:47:19-50
+68            android:exported="false" />
+68-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:47:51-75
+69        <activity
+69-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:48:9-78
+70            android:name="com.google.mediapipe.examples.gesturerecognizer.TaiLieuActivity"
+70-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:48:19-50
+71            android:exported="false" />
+71-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:48:51-75
+72        <activity
+72-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:49:9-79
+73            android:name="com.google.mediapipe.examples.gesturerecognizer.SecurityActivity"
+73-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:49:19-51
+74            android:exported="false" />
+74-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:49:52-76
+75        <activity
+75-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:50:9-82
+76            android:name="com.google.mediapipe.examples.gesturerecognizer.EditProfileActivity"
+76-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:50:19-54
+77            android:exported="false" />
+77-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:50:55-79
+78        <activity
+78-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:51:9-85
+79            android:name="com.google.mediapipe.examples.gesturerecognizer.ChangePasswordActivity"
+79-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:51:19-57
+80            android:exported="false" />
+80-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:51:58-82
+81        <activity
+81-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:52:9-75
+82            android:name="com.google.mediapipe.examples.gesturerecognizer.NewsActivity"
+82-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:52:19-47
+83            android:exported="false" />
+83-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:52:48-72
+84        <activity
+84-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:53:9-80
+85            android:name="com.google.mediapipe.examples.gesturerecognizer.TaiLieuSoActivity"
+85-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:53:19-52
+86            android:exported="false" />
+86-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:53:53-77
+87        <activity
+87-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:54:9-81
+88            android:name="com.google.mediapipe.examples.gesturerecognizer.TaiLieuDauActivity"
+88-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:54:19-53
+89            android:exported="false" />
+89-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:54:54-78
+90        <activity
+90-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:55:9-85
+91            android:name="com.google.mediapipe.examples.gesturerecognizer.HelpAndSupportActivity"
+91-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:55:19-57
+92            android:exported="false" />
+92-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:55:58-82
+93        <activity
+93-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:56:9-79
+94            android:name="com.google.mediapipe.examples.gesturerecognizer.LanguageActivity"
+94-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:56:19-51
+95            android:exported="false" />
+95-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:56:52-76
+96        <activity
+96-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:57:9-87
+97            android:name="com.google.mediapipe.examples.gesturerecognizer.LegalAndPoliciesActivity"
+97-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:57:19-59
+98            android:exported="false" />
+98-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:57:60-84
+99        <activity
+99-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:58:9-83
+100            android:name="com.google.mediapipe.examples.gesturerecognizer.NotificationActivity"
+100-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:58:19-55
+101            android:exported="false" />
+101-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:58:56-80
+102        <activity
+102-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:59:9-90
+103            android:name="com.google.mediapipe.examples.gesturerecognizer.NotificationSettingActivity"
+103-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:59:19-62
+104            android:exported="false" />
+104-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:59:63-87
+105        <activity
+105-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:60:9-80
+106            android:name="com.google.mediapipe.examples.gesturerecognizer.NotifMainFragment"
+106-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:60:19-52
+107            android:exported="false" />
+107-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:60:53-77
+108        <activity
+108-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:61:9-77
+109            android:name="com.google.mediapipe.examples.gesturerecognizer.DetailFragment"
+109-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:61:19-49
+110            android:exported="false" />
+110-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:61:50-74
+111        <activity
+111-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:62:9-77
+112            android:name="com.google.mediapipe.examples.gesturerecognizer.SeeAllFragment"
+112-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:62:19-49
+113            android:exported="false" />
+113-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:62:50-74
+114        <activity
+114-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:63:9-77
+115            android:name="com.google.mediapipe.examples.gesturerecognizer.SearchActivity"
+115-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:63:19-49
+116            android:exported="false" />
+116-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:63:50-74
+117        <activity
+117-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:64:9-78
+118            android:name="com.google.mediapipe.examples.gesturerecognizer.QuizzesActivity"
+118-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:64:19-50
+119            android:exported="false" />
+119-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:64:51-75
+120        <activity
+120-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:65:9-79
+121            android:name="com.google.mediapipe.examples.gesturerecognizer.ProgressActivity"
+121-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:65:19-51
+122            android:exported="false" />
+122-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:65:52-76
+123        <activity
+123-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:66:9-84
+124            android:name="com.google.mediapipe.examples.gesturerecognizer.WatchedVideosActivity"
+124-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:66:19-56
+125            android:exported="false" />
+125-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:66:57-81
+126        <activity
+126-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:67:9-85
+127            android:name="com.google.mediapipe.examples.gesturerecognizer.FavoriteVideosActivity"
+127-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:67:19-57
+128            android:exported="false" />
+128-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:67:58-82
+129        <activity
+129-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:68:9-78
+130            android:name="com.google.mediapipe.examples.gesturerecognizer.Quizz00Activity"
+130-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:68:19-50
+131            android:exported="false" />
+131-->/Users/ducanh/Desktop/Vietnamese Sign Language Application/app/src/main/AndroidManifest.xml:68:51-75
+132
+133        <uses-library
+133-->[androidx.window:window:1.1.0-alpha03] /Users/ducanh/.gradle/caches/transforms-3/a17196c621642be34ff0a46e00593c30/transformed/window-1.1.0-alpha03/AndroidManifest.xml:23:9-25:40
+134            android:name="androidx.window.extensions"
+134-->[androidx.window:window:1.1.0-alpha03] /Users/ducanh/.gradle/caches/transforms-3/a17196c621642be34ff0a46e00593c30/transformed/window-1.1.0-alpha03/AndroidManifest.xml:24:13-54
+135            android:required="false" />
+135-->[androidx.window:window:1.1.0-alpha03] /Users/ducanh/.gradle/caches/transforms-3/a17196c621642be34ff0a46e00593c30/transformed/window-1.1.0-alpha03/AndroidManifest.xml:25:13-37
+136        <uses-library
+136-->[androidx.window:window:1.1.0-alpha03] /Users/ducanh/.gradle/caches/transforms-3/a17196c621642be34ff0a46e00593c30/transformed/window-1.1.0-alpha03/AndroidManifest.xml:26:9-28:40
+137            android:name="androidx.window.sidecar"
+137-->[androidx.window:window:1.1.0-alpha03] /Users/ducanh/.gradle/caches/transforms-3/a17196c621642be34ff0a46e00593c30/transformed/window-1.1.0-alpha03/AndroidManifest.xml:27:13-51
+138            android:required="false" />
+138-->[androidx.window:window:1.1.0-alpha03] /Users/ducanh/.gradle/caches/transforms-3/a17196c621642be34ff0a46e00593c30/transformed/window-1.1.0-alpha03/AndroidManifest.xml:28:13-37
+139
+140        <service
+140-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/ducanh/.gradle/caches/transforms-3/3a467c7cee4815b7f08d6f0ab0881af4/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:25:9-34:19
+141            android:name="androidx.camera.core.impl.MetadataHolderService"
+141-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/ducanh/.gradle/caches/transforms-3/3a467c7cee4815b7f08d6f0ab0881af4/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:26:13-75
+142            android:enabled="false"
+142-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/ducanh/.gradle/caches/transforms-3/3a467c7cee4815b7f08d6f0ab0881af4/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:27:13-36
+143            android:exported="false" >
+143-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/ducanh/.gradle/caches/transforms-3/3a467c7cee4815b7f08d6f0ab0881af4/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:28:13-37
+144            <meta-data
+144-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/ducanh/.gradle/caches/transforms-3/3a467c7cee4815b7f08d6f0ab0881af4/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:31:13-33:89
+145                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+145-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/ducanh/.gradle/caches/transforms-3/3a467c7cee4815b7f08d6f0ab0881af4/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:32:17-103
+146                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+146-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/ducanh/.gradle/caches/transforms-3/3a467c7cee4815b7f08d6f0ab0881af4/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:33:17-86
+147        </service>
+148
+149        <provider
+149-->[androidx.emoji2:emoji2:1.2.0] /Users/ducanh/.gradle/caches/transforms-3/70d4db5432271e9eb48576c03d9980b6/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+150            android:name="androidx.startup.InitializationProvider"
+150-->[androidx.emoji2:emoji2:1.2.0] /Users/ducanh/.gradle/caches/transforms-3/70d4db5432271e9eb48576c03d9980b6/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+151            android:authorities="com.google.mediapipe.examples.gesturerecognizer.androidx-startup"
+151-->[androidx.emoji2:emoji2:1.2.0] /Users/ducanh/.gradle/caches/transforms-3/70d4db5432271e9eb48576c03d9980b6/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+152            android:exported="false" >
+152-->[androidx.emoji2:emoji2:1.2.0] /Users/ducanh/.gradle/caches/transforms-3/70d4db5432271e9eb48576c03d9980b6/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+153            <meta-data
+153-->[androidx.emoji2:emoji2:1.2.0] /Users/ducanh/.gradle/caches/transforms-3/70d4db5432271e9eb48576c03d9980b6/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+154                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+154-->[androidx.emoji2:emoji2:1.2.0] /Users/ducanh/.gradle/caches/transforms-3/70d4db5432271e9eb48576c03d9980b6/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+155                android:value="androidx.startup" />
+155-->[androidx.emoji2:emoji2:1.2.0] /Users/ducanh/.gradle/caches/transforms-3/70d4db5432271e9eb48576c03d9980b6/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+156            <meta-data
+156-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ducanh/.gradle/caches/transforms-3/f4713e4c2e69fbb2fc1fe3b3d519e088/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+157                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+157-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ducanh/.gradle/caches/transforms-3/f4713e4c2e69fbb2fc1fe3b3d519e088/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+158                android:value="androidx.startup" />
+158-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ducanh/.gradle/caches/transforms-3/f4713e4c2e69fbb2fc1fe3b3d519e088/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+159        </provider>
+160
+161        <service
+161-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/aea7273d2ea17b818b63d4fde03217e5/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:29:9-35:19
+162            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+162-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/aea7273d2ea17b818b63d4fde03217e5/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:30:13-103
+163            android:exported="false" >
+163-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/aea7273d2ea17b818b63d4fde03217e5/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:31:13-37
+164            <meta-data
+164-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/aea7273d2ea17b818b63d4fde03217e5/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:32:13-34:39
+165                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+165-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/aea7273d2ea17b818b63d4fde03217e5/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:33:17-94
+166                android:value="cct" />
+166-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/aea7273d2ea17b818b63d4fde03217e5/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:34:17-36
+167        </service>
+168        <service
+168-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/ebb4eb647e80284688e0c7e405365968/transformed/transport-runtime-3.1.0/AndroidManifest.xml:26:9-30:19
+169            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+169-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/ebb4eb647e80284688e0c7e405365968/transformed/transport-runtime-3.1.0/AndroidManifest.xml:27:13-117
+170            android:exported="false"
+170-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/ebb4eb647e80284688e0c7e405365968/transformed/transport-runtime-3.1.0/AndroidManifest.xml:28:13-37
+171            android:permission="android.permission.BIND_JOB_SERVICE" >
+171-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/ebb4eb647e80284688e0c7e405365968/transformed/transport-runtime-3.1.0/AndroidManifest.xml:29:13-69
+172        </service>
+173
+174        <receiver
+174-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/ebb4eb647e80284688e0c7e405365968/transformed/transport-runtime-3.1.0/AndroidManifest.xml:32:9-34:40
+175            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+175-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/ebb4eb647e80284688e0c7e405365968/transformed/transport-runtime-3.1.0/AndroidManifest.xml:33:13-132
+176            android:exported="false" />
+176-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/ducanh/.gradle/caches/transforms-3/ebb4eb647e80284688e0c7e405365968/transformed/transport-runtime-3.1.0/AndroidManifest.xml:34:13-37
+177    </application>
+178
+179</manifest>

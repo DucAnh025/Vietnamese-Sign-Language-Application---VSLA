@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VSLA</string>
+
+    <string name="media_pipe">VSLA</string>
+
+    <string name="alt_bottom_sheet_chevron">Mở rộng</string>
+
+    <string name="alt_bottom_sheet_max_results_button_minus">Giảm số lượng kết quả nhận dạng tối đa</string>
+    <string name="alt_bottom_sheet_max_results_button_plus">Tăng số lượng kết quả nhận dạng tối đa</string>
+    <string name="alt_bottom_sheet_threshold_button_minus">Giảm độ nhạy</string>
+    <string name="alt_bottom_sheet_threshold_button_plus">Tăng độ nhạy</string>
+    <string name="alt_bottom_sheet_thread_button_minus">Giảm threads sử dụng</string>
+    <string name="alt_bottom_sheet_thread_button_plus">Tăng threads sử dụng</string>
+    <string name="menu_camera">Máy Ảnh</string>
+    <string name="menu_gallery">Thư Viện</string>
+    <string name="tv_gallery_placeholder">Nhấn để tải Ảnh hoặc Video lên để nhận diện.</string>
+
+    <string name="label_inference_time">Thời Gian</string>
+    <string name="label_fps">Khung hình trên giây</string>
+    <string name="label_hand_detection_confidence_threshold">Ngưỡng phát hiện</string>
+    <string name="label_hand_tracking_confidence_threshold">Ngưỡng theo dõi</string>
+    <string name="label_hand_presence_confidence_threshold">Ngưỡng hiện diện</string>
+    <string name="label_delegate">Phương pháp xử lý</string>
+    <string name="drawer_open">Mở thanh kéo</string>
+    <string name="drawer_close">Đóng thanh kéo</string>
+
+    <string-array name="delegate_spinner_titles">
+        <item>CPU</item>
+        <item>GPU</item>
+    </string-array>
+</resources>

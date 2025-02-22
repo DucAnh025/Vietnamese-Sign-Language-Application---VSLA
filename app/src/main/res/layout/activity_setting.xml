@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_setting_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Cài Đặt"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btn_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/rounded_button_white"
+                android:contentDescription="More Button"
+                android:padding="8dp"
+                android:src="@drawable/ic_more"
+                tools:ignore="TouchTargetSizeCheck" />
+        </RelativeLayout>
+
+        <!-- General Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Cài Đặt Chung"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Edit Profile Button -->
+        <Button
+            android:id="@+id/btn_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button_white"
+            android:drawableStart="@drawable/ic_progress"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:padding="12dp"
+            android:text="Tiến trình học"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+        <Button
+            android:id="@+id/btn_watchedvideos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button_white"
+            android:drawableStart="@drawable/ic_history"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:padding="12dp"
+            android:text="Video đã xem"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+        <Button
+            android:id="@+id/btn_edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button_white"
+            android:drawableStart="@drawable/ic_edit_profile"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:padding="12dp"
+            android:text="Thông tin cá nhân"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button_white"
+            android:drawableStart="@drawable/ic_changepassword"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:padding="12dp"
+            android:text="Thay Đổi Mật Khẩu"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button_white"
+            android:drawableStart="@drawable/ic_notif"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:padding="12dp"
+            android:text="Thông Báo"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_notification_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button_white"
+            android:drawableStart="@drawable/ic_notifsetting"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:padding="12dp"
+            android:text="Cài Đặt Thông báo"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_security"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button_white"
+            android:drawableStart="@drawable/ic_security"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:padding="12dp"
+            android:text="Bảo mật"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button_white"
+            android:drawableStart="@drawable/ic_language"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:padding="12dp"
+            android:text="Ngôn Ngữ"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+
+        <!-- Preferences Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Tuỳ Chọn"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Legal and Policies Button -->
+        <Button
+            android:id="@+id/btn_legal_policies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button_white"
+            android:drawableStart="@drawable/ic_legal"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:padding="12dp"
+            android:text="Điều Khoản"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_help_support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button_white"
+            android:drawableStart="@drawable/ic_help"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:padding="12dp"
+            android:text="Hỗ trợ và Tư Vấn"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button_white"
+            android:drawableStart="@drawable/ic_legal"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawablePadding="16dp"
+            android:gravity="start|center_vertical"
+            android:padding="12dp"
+            android:text="Đăng Xuất"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</ScrollView>

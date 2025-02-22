@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_language.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_language.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_help_and_support.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_help_and_support.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_legal_and_policies.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_legal_and_policies.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_onboarding01.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_onboarding01.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_security.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_security.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_quizz_00.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_quizz_00.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_practice.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_practice.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_edit_profile.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/fragment_detail.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/fragment_detail.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/item_news.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/item_news.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/item_gesture_recognizer_result.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/item_gesture_recognizer_result.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_notification_setting.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_notification_setting.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_tailieu.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_tailieu.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_watchedvideos.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_watchedvideos.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/item_notification.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/item_notification.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/badge_layout.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/badge_layout.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/fragment_see_all.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/fragment_see_all.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_news.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_news.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/item_quizzes.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/item_quizzes.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/item_watchedvideos.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/item_watchedvideos.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_favoritevideos.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_favoritevideos.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_search.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_search.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/fragment_gallery.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/info_bottom_sheet.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/info_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_change_password.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/item_favoritevideos.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/item_favoritevideos.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_login.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_setting.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_setting.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_with_nav.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_with_nav.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/fragment_camera.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/fragment_camera.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/nav_header.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/nav_header.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/item_event.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/item_event.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_notification.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_notification.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/fragment_notif_main.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/fragment_notif_main.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_quizzes.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_quizzes.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_progress.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_progress.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_signup.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/item_slider.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/item_slider.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_tailieuso.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_tailieuso.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-49:/layout/activity_tailieudau.xml",
+        "source": "com.google.mediapipe.examples.gesturerecognizer.app-main-52:/layout/activity_tailieudau.xml"
+    }
+]

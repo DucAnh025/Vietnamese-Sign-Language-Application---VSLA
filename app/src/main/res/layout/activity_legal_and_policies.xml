@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Back to setting -->
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Back"
+            android:src="@drawable/ic_arrow_left"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Title of layout(LegalAndPolicies) -->
+        <TextView
+            android:id="@+id/LegalAndPolicies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:text="Legal and Policies"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- Term content -->
+        <TextView
+            android:id="@+id/Term"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Term"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:paddingTop="8dp"
+            android:text="By using this application, you agree to comply with and be bound by the following terms and conditions. Please review them carefully. If you do not agree to these terms, you should not use this application. The term &quot;us&quot; or &quot;we&quot; refers to [Your Company Name), the owner of this application. The term &quot;you&quot; refers to the user or viewer of our application."
+            android:textColor="@color/bottom_sheet_text_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:lineSpacingExtra="4dp"
+            android:paddingTop="8dp"
+            android:text="Terms, you should not use this application. The term &quot;us&quot; or &quot;we&quot; refers to [Your Company Name], the owner of this application. The term &quot;you&quot; refers to the user or viewer of our application"
+            android:textColor="@color/bottom_sheet_text_color"
+            android:textSize="15sp" />
+
+        <!-- Changes to the Service and/or Terms content -->
+
+        <TextView
+            android:id="@+id/ChangesServiceTerms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Changes to the Service and/or Terms"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:paddingTop="8dp"
+            android:text="This application is provided to you &quot;as is,&quot; and we make no express or implied warranties whatsoever with respect to its functionality, operability, or use. including, without limitation."
+            android:textColor="@color/bottom_sheet_text_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:paddingTop="8dp"
+            android:text="Any implied warranties of merchantability, fitness for a particular purpose, or infringement. We expressly disclaim any liability whatsoever for any direct, indirect, consequential, incidental or special damages, including, without limitation, lost revenues, lost profits, losses resulting from business interruption or loss of data, regardless of the form of action or legal theory under which the liability may be asserted, even if advised of the possibility or likelihood of such damages."
+            android:textColor="@color/bottom_sheet_text_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:paddingTop="8dp"
+            android:text="By using this application, you agree to comply with and be bound by the following terms and conditions. Please review them carefully. If you do not agree to these terms, you should not use this application. The term &quot;us&quot; or &quot;we&quot; refers to [Your Company Name], the owner of this application. The term &quot;you&quot; refers to the user or viewer of our application."
+            android:textColor="@color/bottom_sheet_text_color"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

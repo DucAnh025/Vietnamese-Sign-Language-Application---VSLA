@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="delegate_spinner_titles">
+        <item>CPU</item>
+        <item>GPU</item>
+    </string-array>
+    <color name="bottom_sheet_background">#EEEEEE</color>
+    <color name="bottom_sheet_text_color">@android:color/black</color>
+    <color name="icActive">#FFFFFFFF</color>
+    <color name="icFocused">#DDFFFFFF</color>
+    <color name="icPressed">#AAFFFFFF</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="mp_color_error">#B00020</color>
+    <color name="mp_color_primary">#007F8B</color>
+    <color name="mp_color_primary_dark">#00676D</color>
+    <color name="mp_color_primary_variant">#12B5CB</color>
+    <color name="mp_color_secondary">#FBBC04</color>
+    <color name="mp_color_secondary_variant">#F9AB00</color>
+    <color name="toolbar_background">#E0E0E0</color>
+    <dimen name="bottom_sheet_control_btn_size">48dp</dimen>
+    <dimen name="bottom_sheet_control_text_side_margin">10dp</dimen>
+    <dimen name="bottom_sheet_default_row_margin">16dp</dimen>
+    <dimen name="bottom_sheet_padding">16dp</dimen>
+    <dimen name="bottom_sheet_peek_height">50dp</dimen>
+    <dimen name="bottom_sheet_spinner_delegate_min_width">160dp</dimen>
+    <dimen name="bottom_sheet_spinner_model_min_width">240dp</dimen>
+    <dimen name="bottom_sheet_text_size">18sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="round_button_medium">64dp</dimen>
+    <dimen name="stroke_small">4dp</dimen>
+    <integer name="bottom_sheet_control_text_min_ems">3</integer>
+    <string name="alt_bottom_sheet_chevron">Mở rộng</string>
+    <string name="alt_bottom_sheet_max_results_button_minus">Giảm số lượng kết quả nhận dạng tối đa</string>
+    <string name="alt_bottom_sheet_max_results_button_plus">Tăng số lượng kết quả nhận dạng tối đa</string>
+    <string name="alt_bottom_sheet_thread_button_minus">Giảm threads sử dụng</string>
+    <string name="alt_bottom_sheet_thread_button_plus">Tăng threads sử dụng</string>
+    <string name="alt_bottom_sheet_threshold_button_minus">Giảm độ nhạy</string>
+    <string name="alt_bottom_sheet_threshold_button_plus">Tăng độ nhạy</string>
+    <string name="app_name">VSLA</string>
+    <string name="drawer_close">Đóng thanh kéo</string>
+    <string name="drawer_open">Mở thanh kéo</string>
+    <string name="label_delegate">Phương pháp xử lý</string>
+    <string name="label_fps">Khung hình trên giây</string>
+    <string name="label_hand_detection_confidence_threshold">Ngưỡng phát hiện</string>
+    <string name="label_hand_presence_confidence_threshold">Ngưỡng hiện diện</string>
+    <string name="label_hand_tracking_confidence_threshold">Ngưỡng theo dõi</string>
+    <string name="label_inference_time">Thời Gian</string>
+    <string name="media_pipe">VSLA</string>
+    <string name="menu_camera">Máy Ảnh</string>
+    <string name="menu_gallery">Thư Viện</string>
+    <string name="tv_gallery_placeholder">Nhấn để tải Ảnh hoặc Video lên để nhận diện.</string>
+    <style name="AppThemeProgressStyle">
+        <item name="colorAccent">@color/mp_color_primary_variant</item>
+    </style>
+    <style name="BottomSheetSpinnerItemStyle" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:textSize">@dimen/bottom_sheet_text_size</item>
+    </style>
+    <style name="Theme.GestureRecognizer" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/mp_color_primary</item>
+        <item name="colorPrimaryVariant">@color/mp_color_primary_variant</item>
+        <item name="colorPrimaryDark">@color/mp_color_primary_dark</item>
+        
+        <item name="colorSecondary">@color/mp_color_secondary</item>
+        <item name="colorSecondaryVariant">@color/mp_color_secondary_variant</item>
+        <item name="colorError">@color/mp_color_error</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        
+    </style>
+</resources>

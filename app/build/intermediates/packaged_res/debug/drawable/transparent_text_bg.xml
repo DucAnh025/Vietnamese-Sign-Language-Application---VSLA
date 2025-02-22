@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Transparent background -->
+    <solid android:color="#88000000" /> <!-- Xám đậm 50% -->
+    <!-- 95% trắng -->
+
+
+    <!-- Rounded corners -->
+    <corners android:radius="0dp" />
+
+    <!-- Border stroke -->
+    <stroke
+        android:width="0dp"
+        android:color="#FFFFFF" /> <!-- Adjust color as needed -->
+</shape>
