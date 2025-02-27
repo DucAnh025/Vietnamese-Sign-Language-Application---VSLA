@@ -26,8 +26,6 @@ With a focus on accessibility and usability, **VSLA** integrates:
 - **Flashcard mode** for vocabulary revision.
 - **Quiz mode** to test and reinforce learning.
 
-📌 *Learning with Real-time sign detection*
-
 ### **4. Progress Tracking**
 - **Mark completed lessons** and **review learning history**.
 - **Track learning milestones** via progress dashboard.
@@ -37,6 +35,8 @@ With a focus on accessibility and usability, **VSLA** integrates:
 - **Data caching** to improve performance.
 - **Efficient API communication** using compressed JSON.
 
+📌 *Learning with Real-time sign detection*
+![Sign Detection](https://github.com/DucAnh025/Vietnamese-Sign-Language-Application---VSLA/blob/main/App%20demo/demo01.gif?raw=true)
 ---
 
 ## 🏗 System Architecture
@@ -87,6 +87,8 @@ git clone https://github.com/DucAnh025/Vietnamese-Sign-Language-Application---VS
 - **Learning history** allows users to review past lessons and quizzes.
 
 📌 *App interface*
+
+![Demo UI](https://github.com/DucAnh025/Vietnamese-Sign-Language-Application---VSLA/blob/main/App%20demo/app%20uxui.png?raw=true)
 
 
 ## ❓ Troubleshooting & FAQ
