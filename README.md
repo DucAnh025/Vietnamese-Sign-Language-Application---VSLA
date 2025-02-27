@@ -35,7 +35,8 @@ With a focus on accessibility and usability, **VSLA** integrates:
 - **Data caching** to improve performance.
 - **Efficient API communication** using compressed JSON.
 
-📌 *Learning with Real-time sign detection*
+ 📌 *Learning with Real-time sign detection*
+ 
 ![Sign Detection](https://github.com/DucAnh025/Vietnamese-Sign-Language-Application---VSLA/blob/main/App%20demo/demo01.gif?raw=true)
 ---
 
